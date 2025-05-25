@@ -8,6 +8,39 @@ body {
     color: white;
 }
 
+.skill-table {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  overflow: hidden;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.skill-table th, .skill-table td {
+  padding: 14px 20px;
+  text-align: left;
+}
+
+.skill-table thead {
+  background-color: rgba(255, 255, 255, 0.1);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.skill-table tbody tr {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.skill-table tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: default;
+}
+
+
 .profile-img {
     width: 150px;
     height: 150px;
